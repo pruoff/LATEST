@@ -9,11 +9,10 @@ will post it here once it's accepted.
  
 As a part of my thesis, I conducted a case study at the Robert L. Preger Intelligent 
 Workplace. I monitored three participants over more than three months while they 
-were working at their usual desks at CMU. In particular, I monitored their surrounding air
-temperature and relative humidity via DHT22 sensors connected to microcontrollers, their hart 
-rate, skin temperature, and galvanic skin response via Microsoft Bands, weather 
-information via openweathermap.org, and various other relevant features via the Intelligent 
-Workplace's openHAB instance (the full list is included in the thesis pdf).
+were working at their usual desks at CMU. The figure below shows a high-level perspective
+of the setup. More details can be found in the masters_thesis.pdf.
+
+
 
 This setup was used for two consecutive phases.
 
@@ -25,21 +24,22 @@ that the subject's feedback about their thermal comfort is directly connected to
 heating panel. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/ui_data_collection_small.png" width="400" />
+  <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/ui_data_collection_small.png" width="330" />
 </p>
 
-Now when a participant feels cold as in the right screen, they adjust the scroller and press
-the send button to turn on their heating plate. This approach is meant to be only very 
-little intrusive and can be made even less so by removing the feedback part for a 
-non-scientific real-world application.
+Now when participants feel cold they adjust the scroller, like in the right screen, and press
+the send button to turn on their heating plate. This feedback collection approach is
+designed to be only little intrusive and can be made even less so by removing the 
+feedback part for a non-scientific real-world application.
 
-In the data_preparation module, the raw sensor data is preprocessed.
+The raw data gathered with this described setup and is then preprocessed 
+in the data_preparation module. 
 
 ## Temperature Control Phase  
 
-After the data is preprocessed, it can be used for training. In this project, I used 
+After preprocessing, the data can be used for training. In this project, I used 
 scikit-learn and fastai to compare seven personalized models for every participant with 
-each other. The best models were then parameter-optimized with randomized grid search and 
+each other. The best models were then parameter-optimized with a randomized grid search and 
 the final model with the highest f1-score was deployed.
 
 But that's not all there is. For transparency, I also included a SHAP-explainer for every 
