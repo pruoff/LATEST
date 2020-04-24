@@ -25,7 +25,7 @@ that the subject's feedback about their thermal comfort is directly connected to
 heating panel. 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/ui_data_collection_small.png" width="500" />
+  <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/ui_data_collection_small.png" width="400" />
 </p>
 
 Now when a participant feels cold as in the right screen, they adjust the scroller and press
