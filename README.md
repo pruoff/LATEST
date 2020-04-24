@@ -12,7 +12,9 @@ Workplace. I monitored three participants over more than three months while they
 were working at their usual desks at CMU. The figure below shows a high-level perspective
 of the setup. More details can be found in the masters_thesis.pdf.
 
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/high_level_design.jpeg" width="500" />
+</p>
 
 This setup was used for two consecutive phases.
 
