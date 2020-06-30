@@ -9,7 +9,7 @@ Here's the order of the notebooks:
 1. The first module executed is pre_selection, where the basic selection of well fitting 
 ML methods for every collected data set are selected. 
 2. These ML methods are then 
-parameter-optimized in parameter_optimization.ipynb`. We ran it inside 
+parameter-optimized in `parameter_optimization.ipynb`. We ran it inside 
 `optimize_all_occuants.ipynb` in the cloud provided for this research by the
 Leibniz Supercomputing Centre.
 3. Afterwards the results are analyzed with `check_random_search_results.ipynb` to see
