@@ -11,7 +11,8 @@ As a part of this project, we conducted a case study at the Robert L. Preger Int
 Workplace. We monitored three participants over more than three months while they 
 were working at their usual desks and controlled a radiant heating panel with our 
 iOS application. The figure below shows a high-level perspective of the setup. More 
-details can be found in the `masters_thesis.pdf`.
+details can be found in the 
+[masters_thesis.pdf](https://github.com/pruoff/LATEST/blob/master/masters_thesis.pdf).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/pruoff/LATEST/master/figures/LATEST_architecture.png" width="700" />
@@ -56,5 +57,6 @@ compute the Shapley values for every prediction and give the participant a reaso
 for why the heating panel was turned on or off. 
 
 ### Notice
-If the code does not run in your environment, check `conda_env.yml` for the packages and 
-versions I used.
+If the code does not run in your environment, check 
+[conda_env.yml](https://github.com/pruoff/LATEST/blob/master/conda_env.yml) 
+for the packages and versions used.
