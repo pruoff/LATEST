@@ -1,3 +1,7 @@
+This is the official repository that implements the following paper:
+
+> Nadine von Frankenberg, Patrick Ruoff, Bernd Bruegge, and Vivian Loftness. 2020. LATEST: a learning-based automated thermal environment control system. In <i>Adjunct Proceedings of the 2020 ACM International Joint Conference on Pervasive and Ubiquitous Computing and Proceedings of the 2020 ACM International Symposium on Wearable Computers</i> (<i>UbiComp-ISWC '20</i>). Association for Computing Machinery, New York, NY, USA, 573–579. DOI:https://doi.org/10.1145/3410530.3414591
+
 # LATEST - Personal Thermostat
 
 At the Intelligent Workplace of Carnegie Mellon Unversity we developed a **L**earning-based 
